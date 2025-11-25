@@ -28,7 +28,6 @@ button {
   height: 10,53vw;
   margin: 1,97vw 3,125vw 0 3,125vw;
 }
-
 .frame {
   display: flex;
   flex-direction: column;
@@ -42,18 +41,16 @@ button {
   top: 0;
   left: 0;
   padding: 10px 10px 10px 10px;
-} 
-
+}
 .rectangle {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
   min-width: 0;
-  height: 93,75vw;
+  height: 80px;
   background: #000000;
   z-index: 1;
-} 
-
+}
 .frame-1 {
   display: flex;
   flex-direction: column;
@@ -62,21 +59,20 @@ button {
   flex-wrap: nowrap;
   gap: 10px;
   position: absolute;
-  width: 12,33vw;
-  height: 72vw;
-  top: 14vw;
-  left: 1.31vw;
-  padding: 13,89vw 6,76vw 13,89vw 6,76vw;
+  width: 12.13%;
+  height: 72%;
+  top: 14%;
+  left: 1.31%;
+  padding: 10px 10px 10px 10px;
   z-index: 2;
-}  
-
+}
 .resource {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
   min-width: 0;
-  height: 65vw;
-  background: [Логотип](logo.png)
+  height: 52px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-11-25/ZqgQW9r4Ou.png)
     no-repeat center;
   background-size: cover;
   z-index: 3;
