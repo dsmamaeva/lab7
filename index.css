@@ -29,7 +29,7 @@ button {
   margin: 1,97vw 3,125vw 0 3,125vw;
 }
 
-/* .frame {
+.frame {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,7 +42,8 @@ button {
   top: 0;
   left: 0;
   padding: 10px 10px 10px 10px;
-} */
+} 
+
 .rectangle {
   align-self: stretch;
   flex-shrink: 0;
