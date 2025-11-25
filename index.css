@@ -60,6 +60,7 @@ button {
   align-items: flex-start;
   justify-content: center;
   flex-wrap: nowrap;
+  gap: 10px;
   position: absolute;
   width: 12,33vw;
   height: 72vw;
