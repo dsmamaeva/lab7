@@ -5,7 +5,6 @@
     "Source Han Sans CN", sans-serif;
 }
 
-
 .main-container {
   style="width: 93,75vw; height: 10,53vw; overflow: hidden;;
 }
@@ -22,7 +21,6 @@ button {
   outline: 0;
 }
 
-/* АДАПТИВНО */
 .main-container {
   position: relative;
   width: 93,75vw;
