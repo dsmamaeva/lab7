@@ -21,12 +21,11 @@ button {
   outline: 0;
 }
 
-* АДАПТИВНО */
 .main-container {
   position: relative;
-  width: 93,75vw;
-  height: 10,53vw;
-  margin: 1,97vw 3,125vw 0 3,125vw;
+  width: 1220px;
+  height: 100px;
+  margin: 0 auto;
 }
 .frame {
   display: flex;
