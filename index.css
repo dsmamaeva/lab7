@@ -6,7 +6,7 @@
 }
 
 .main-container {
-  style="width: 93,75vw; height: 10,53vw; overflow: hidden;;
+  overflow: hidden;
 }
 
 .main-container,
@@ -22,72 +22,66 @@ button {
 }
 
 .main-container {
-  position: relative;
-  width: 93,75vw;
-  height: 10,53vw;
-  margin: 1,97vw 3,125vw 0 3,125vw;
-}
-.frame {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 382px;
+  position: relative;
+  width: 1123.708px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+  background: #000000;
+}
+.navigation {
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  gap: 10px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  padding: 10px 10px 10px 10px;
-}
-.rectangle {
-  align-self: stretch;
   flex-shrink: 0;
+  gap: 30px;
   position: relative;
-  min-width: 0;
-  height: 80px;
-  background: #000000;
-  z-index: 1;
-}
-.frame-1 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  flex-wrap: nowrap;
-  gap: 10px;
-  position: absolute;
-  width: 12.13%;
-  height: 72%;
-  top: 14%;
-  left: 1.31%;
-  padding: 10px 10px 10px 10px;
+  width: 600px;
   z-index: 2;
 }
-.resource {
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-  min-width: 0;
-  height: 52px;
-  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-11-25/ZqgQW9r4Ou.png)
-    no-repeat center;
-  background-size: cover;
-  z-index: 3;
-}
-.frame-2 {
+.nav-button {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  gap: 40px;
-  position: absolute;
-  width: 39.34%;
-  height: 34%;
-  top: 33%;
-  left: 30.33%;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 100px;
+  padding: 6px 6px 6px 6px;
+  border: 1px dashed #8a38f5;
+  z-index: 3;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.state-off {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 88px;
+  padding: 6px 6px 6px 6px;
   z-index: 4;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  padding: 4px 4px 4px 4px;
+  z-index: 5;
 }
 .catalog {
   display: flex;
@@ -105,7 +99,47 @@ button {
   line-height: 33.6px;
   text-align: center;
   white-space: nowrap;
-  z-index: 5;
+  z-index: 6;
+}
+.navigation-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 103px;
+  padding: 6px 6px 6px 6px;
+  border: 1px dashed #8a38f5;
+  z-index: 7;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.state-off-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 91px;
+  padding: 6px 6px 6px 6px;
+  z-index: 8;
+}
+.content-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  padding: 4px 4px 4px 4px;
+  z-index: 9;
 }
 .solutions {
   display: flex;
@@ -123,7 +157,47 @@ button {
   line-height: 33.6px;
   text-align: center;
   white-space: nowrap;
-  z-index: 6;
+  z-index: 10;
+}
+.nav-button-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 89px;
+  padding: 6px 6px 6px 6px;
+  border: 1px dashed #8a38f5;
+  z-index: 11;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.state-off-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 77px;
+  padding: 6px 6px 6px 6px;
+  z-index: 12;
+}
+.content-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  padding: 4px 4px 4px 4px;
+  z-index: 13;
 }
 .service {
   display: flex;
@@ -141,9 +215,49 @@ button {
   line-height: 33.6px;
   text-align: center;
   white-space: nowrap;
-  z-index: 7;
+  z-index: 14;
 }
-.about {
+.nav-button-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 75px;
+  padding: 6px 6px 6px 6px;
+  border: 1px dashed #8a38f5;
+  z-index: 15;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.state-off-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 63px;
+  padding: 6px 6px 6px 6px;
+  z-index: 16;
+}
+.content-8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  padding: 4px 4px 4px 4px;
+  z-index: 17;
+}
+.about-us {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -159,9 +273,49 @@ button {
   line-height: 33.6px;
   text-align: center;
   white-space: nowrap;
-  z-index: 8;
+  z-index: 18;
 }
-.contact-info {
+.nav-button-9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 113px;
+  padding: 6px 6px 6px 6px;
+  border: 1px dashed #8a38f5;
+  z-index: 19;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.state-off-a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 101px;
+  padding: 6px 6px 6px 6px;
+  z-index: 20;
+}
+.content-b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  padding: 4px 4px 4px 4px;
+  z-index: 21;
+}
+.contacts {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -177,5 +331,27 @@ button {
   line-height: 33.6px;
   text-align: center;
   white-space: nowrap;
-  z-index: 9;
+  z-index: 22;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 111.708px;
+  padding: 14px 14px 14px 14px;
+}
+.resource {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  position: relative;
+  min-width: 0;
+  height: 34px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-11-27/n6jAGRivEG.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 1;
 }
